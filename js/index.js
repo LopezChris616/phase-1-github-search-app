@@ -1,6 +1,8 @@
+import { token } from "./token.js";
+
 const configObj = {
     headers: {
-        Authorization: "Bearer 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",
+        Authorization: `Bearer ${token}`,
         Accept: "application/vnd.github.v3+json"
     }
 }
