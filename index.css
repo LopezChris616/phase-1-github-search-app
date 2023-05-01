@@ -5,9 +5,31 @@
 }
 
 #github-container {
-  display: flex;
+  /* display: flex; */
 }
 
 ul {
   list-style: none;
+}
+
+img {
+  width: 200px;
+}
+
+#user-list, #repos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#username {
+  text-align: center;
+}
+
+.user-info, .repo-info {
+  margin: 30px;
+}
+
+h1 {
+  text-align: center;
 }
